@@ -44,7 +44,7 @@ Data shows that almost half (46%) of the days were raining over the past 40 year
 <img src="images/Picture1.png">
 <img src="images/Picture2.png">
 
-The median outdoor temperature during non-rainy days is 28.5 °C while the median outdoor temperature during rainy days is relatively low, at 27.5 °C. The median relative humidity during non-rainy days is 75.3 % while the median relative humidity during rainy days is relatively high, at 81.2 %.
+According to the data of daily weather in 2021, the median outdoor temperature during non-rainy days is 28.5 °C while the median outdoor temperature during rainy days is relatively low, at 27.5 °C; the median relative humidity during non-rainy days is 75.3 % while the median relative humidity during rainy days is relatively high, at 81.2 %.
 
 <img src="images/Picture3.png">
 <img src="images/Picture4.png">
