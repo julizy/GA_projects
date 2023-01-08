@@ -40,10 +40,12 @@ When our nature environment is getting hotter, the demand of aircon usage is gro
 
 ## Brief Summary of Analysis
 Data shows that almost half (46%) of the days were raining over the past 40 years in Singapore. Each year, almost half of the month is raining for most months, except that Feb has relatively few rain days while Nov and Dec have relatively more rain days. 
+
 <img src="images/Picture1.png">
 <img src="images/Picture2.png">
 
 The median outdoor temperature during non-rainy days is 28.5 °C while the median outdoor temperature during rainy days is relatively low, at 27.5 °C. The median relative humidity during non-rainy days is 75.3 % while the median relative humidity during rainy days is relatively high, at 81.2 %.
+
 <img src="images/Picture3.png">
 <img src="images/Picture4.png">
 
