@@ -18,7 +18,7 @@ Public places at Singapore such as offices, MRT and shopping malls are often exc
 ## Outside Research
 Singapore is not insulated from the impact of global warming. `From 1980 to 2020, the annual mean temperature has increased from 26.9°C to 28.0°C`. However, rainfall has become more intense in recent years. `The total annual rainfall for Singapore has increased at an average rate of 67 mm per decade from 1980 to 2019`. This kind of change in the climate will have effects on the daily life of residents. [Source link](https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/)
 
-When our nature environment is getting hotter, the demand of aircon usage is growing at all of places in Singapore. It tends to have overusage especially on rainy days when outdoor temperature is decreasing. The issue may not be so significant at private homes since householders canm take the control of the aircon to turn it off during rainy days. But public places like offices in a building are often excessive cooling, since usually there is no automation system to control the central aircon when it is raining. 
+When our nature environment is getting hotter, the demand of aircon usage is growing at all of places in Singapore. It tends to have overusage especially on rainy days when outdoor temperature is decreasing. The issue may not be so significant at private homes since householders can take the control of the aircon to turn it off during rainy days. But public places like offices in a building are often excessive cooling, since usually there is no automation system to control the central aircon when it is raining. 
 
 [Return to top](#Table-of-Contents)
 
