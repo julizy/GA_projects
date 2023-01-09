@@ -60,7 +60,7 @@ According to the data of daily weather in 2021, the median outdoor temperature d
 
 ## Citation
 1. [data.gov.sg](https://data.gov.sg/)
-2. [Singapore Government Website](http://www.weather.gov.sg/climate-historical-daily/)
+2. [Weather data from The Meteorological Service Singapore (MSS)](http://www.weather.gov.sg/climate-historical-daily/)
 3. [National Environment Agency API](https://api.data.gov.sg/v1/environment/relative-humidity)
 
 [Return to top](#Table-of-Contents)
