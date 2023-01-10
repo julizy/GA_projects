@@ -8,7 +8,7 @@
 - [Conclusions & Recommendations](#Conclusions-&-Recommendations)
 - [Citation](#Citation)
 
-**Warning:** The Notebook contains API query which may take some time to run, if you encounter any warning msg please re-run the code. 
+**Warning:** The Notebook contains API query which may take some time to run, if you encounter any warning or error msg please re-run the code. 
 
 ## Problem Statement
 Public places at Singapore such as offices, MRT and shopping malls are often excessive cooling by aircon, which may result in energy wastes and health issues. This project aims to use the data to explain the significance of overcooling in air-conditioned offices in Singapore, especially on rainy days. The analysis results can help to design a building automation system which can adjust the aircon in offices according to the weather.
