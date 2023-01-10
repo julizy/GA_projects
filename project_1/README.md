@@ -39,7 +39,7 @@ When our nature environment is getting hotter, the demand of aircon usage is gro
 [Return to top](#Table-of-Contents)
 
 ## Brief Summary of Analysis
-Historical data shows that almost half (46%) of the days were raining over the past 40 years in Singapore. And almost half of the month is raining for most months in a year, except that Feb has relatively few rainy days while Nov and Dec have relatively more rainy days. 
+Historical data shows that almost half (46%) of the days were raining over the past 40 years in Singapore. And almost half of the month is raining for most months in a year, except that Feb has relatively fewer rainy days while Nov and Dec have relatively more rainy days. 
 
 <img src="images/Picture1.png">
 <img src="images/Picture2.png">
@@ -53,7 +53,7 @@ According to the data of daily weather in 2021, the median outdoor temperature d
 
 ## Conclusions & Recommendations
 1. Rainfall is quite significant in Singapore, almost half (46%) of the days were raining over the past 40 years. If we tie this to the issue of overcooling being worsened especially on rainy days, it proves a building automation system based on raining status is meaningful.
-2. Historical data suggested that usually Nov and Dec can have the highest monthly rainy days and total rainfall in a year. The building automation system will mainly operate in Nov and Dec which are the rainy seasons. 
+2. Historical data suggested that in average Nov and Dec can have the highest monthly no of rainy days and total rainfall in a year. The building automation system will mainly operate in Nov and Dec which are the rainy seasons. 
 3. During rainy days, the outdoor temperatures will be relatively low and the relative humidity will be relatively high, which could significantly exacerbate the overcooling problem of the aircon in offices. The building automation system can control to turn off the aircon and replace with natural ventilation to solve the overcooling issue.  
 
 [Return to top](#Table-of-Contents)
