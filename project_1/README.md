@@ -1,8 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Data Analysis of Singapore Rainfall
 
-**Warning:** 
-1. The notebook contains API query which may take some time to run, if you encounter any warning or error message for the query code please re-run the notebook. 
-2. The query results show all none values since Jan 11, 2023 due to API returning empty values, hence some plots in the notebook will have problem to display if this issue persists. 
+***Warning:*** 
+*1. The notebook contains API query which may take some time to run, if you encounter any warning or error message for the query code please re-run the notebook.* 
+*2. The query results show all none values since Jan 11, 2023 due to API returning empty values, hence some plots in the notebook will have problem to display if this issue persists.* 
 
 ## Table of Contents
 - [Problem Statement](#Problem-Statement)
