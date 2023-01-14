@@ -41,7 +41,7 @@ When our nature environment is getting hotter, the demand of aircon usage is gro
 [Return to top](#Table-of-Contents)
 
 ## Brief Summary of Analysis
-Historical data shows that almost half (46%) of the days were raining over the past 40 years in Singapore. And almost half of the month is raining for most months in a year, except that Feb has relatively fewer rainy days while Nov and Dec have relatively more rainy days. 
+Historical data shows that almost half (46%) of the days were raining over the past 40 years in Singapore. Feb has relatively fewer rainy days while Nov and Dec have relatively more rainy days. 
 
 <img src="images/Picture1.png">
 <img src="images/Picture2.png">
