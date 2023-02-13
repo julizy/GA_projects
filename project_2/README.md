@@ -101,6 +101,7 @@ The final data has 95 columns (94 features + 1 target variable) which contains 1
 
 ### Conclusion
 We built 7 models for each flat type to predict the resale price, in overall with a **R2 score** of **0.928** and **RMSE** of **39,415.31**. Besides, we were able to identify the **top 5 features** that were **positively correlated** to the **resale price** for **each flat type**, as shown in the results below: 
+
 |   |1 Room|2 Room|3 Room|4 Room|5 Room|Exec|Multi|
 |---|---|---|---|---|---|---|---|
 |**1st**|tranc_month|4room_sold|max_floor_lvl|max_floor_lvl|hawker_within_2km|hawker_within_2km|hawker_within_2km|
