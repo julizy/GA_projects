@@ -104,9 +104,9 @@ We found that resale price of 7 different flat types show an ascending order of 
 
 The heatmaps below show the top 5 features positively correlated to resale price for **2 Room**, **4 Room** and **Multi-generation**. Compared to the overall heatmap with all flat types included, the top 5 features for each flat type are quite different. For example, the most positively correlated feature is **'max floor level'** for **3 Room** and **4 Room** and **'hawker numbers within 2km'** for **5 Room**, **Executive** and **Multi-generation**. It indicates that using seperate models to predict the resale prices of different flat types will be meaningful.
 
-<img src="images/heatmap_1.PNG" width="300"/>
-<img src="images/heatmap_2.PNG" width="300"/>
-<img src="images/heatmap_3.PNG" width="300"/>
+<img src="images/heatmap_1.PNG" width="400"/>
+<img src="images/heatmap_2.PNG" width="400"/>
+<img src="images/heatmap_3.PNG" width="400"/>
 
 ### Modeling
 The methodology we used is to split the models for different flat types. We believe the model should be different since the EDA results show that the key correlated features are different for each flat type. 
