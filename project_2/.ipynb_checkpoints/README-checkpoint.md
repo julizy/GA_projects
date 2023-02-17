@@ -92,8 +92,36 @@ The final data has 95 columns (94 features + 1 target variable) which contains 1
 ## Executive Summary
 
 ### EDA
+We examined the target variable by histogram plot, it shows that most resale prices are in a range of **360,000** - **440,000** SGD. A strong right skewed means a lot resale prices are relatively high. We found that there is an approximate linear correlation between resale price and floor area. However, it has many outliers e.g. floor area > **3000** sqft but the price is lesser than **1.2** million and floor area is only ard **1125** sqft but it has the highest resale price which is more than **1.2** million.
+<img src="images/hist_resale_price.png" width="800"/>
+
+<img src="images/pricevsfloorarea.png" width="800"/>
+
+We found that resale price of 7 different flat types show an ascending order of median values. **1 Room** has the lowest median value while **Multi-generation** has the highest median value. There are some overlaps of the resale price outliers of 3 Room, 4 Room, 5 Room and Executive, but in general the resale price range is also in an ascending order. It indicates that it probably will be better to use seperate models for different flat types to predict the resale price.
+<img src="images/pricevsflattypes.png" width="800"/>
+
+The heatmaps below show the top 5 features positively correlated to resale price for **2 Room**, **4 Room** and **Multi-generation**. Compared to the overall heatmap with all flat types included, the top 5 features for each flat type are quite different. For example, the most positively correlated feature is **'max floor level'** for **3 Room** and **4 Room** and **'hawker numbers within 2km'** for **5 Room**, **Executive** and **Multi-generation**. It indicates that using seperate models to predict the resale prices of different flat types will be meaningful.
+<img src="images/heatmaps.png" width="800"/>
 
 ### Modeling
+The methodology we used is to split the models for different flat types. We believe the model should be different since the EDA results show that the key correlated features are different for each flat type. 
+<img src="images/modeling_methodology.png" width="800"/>
+
+Below shows the results of the final models we selected and the normalized RMSE on the validation set for each flat type. The normalized RMSE value is between **0.053** to **0.086**.
+|Model Name|Flat Type|Regression Model|Normalized RMSE on Validation Set|
+|---|---|---|---|
+|Model_1|1 ROOM|LinearRegression|0.06683| 
+|Model_2|2 ROOM|LinearRegression|0.07313| 
+|Model_3|3 ROOM|LASSORegression|0.08614| 
+|Model_4|4 ROOM|LinearRegression|0.07959| 
+|Model_5|5 ROOM|RidgeRegression|0.08074| 
+|Model_6 (Model_exec)|EXECUTIVE|LinearRegression|0.07393| 
+|Model_7 (Model_multi)|MULTI-GENERATION|LinearRegression|0.05287| 
+
+We did an overall model evaluation on the validation set. We predicted the resale price for each flat type separately, then merge these results into a full validation dataset with predict values and actual values, then we can calculate the combine RMSE from there (refer to the results in [Conclusion and Recommendation](#Conclusion-and-Recommendation)). We also did normality check and equal variance check of the residuals and observed some outliers, which are from 3 room, 4 room, 5 room and executive.  
+<img src="images/residual_1.png" width="800"/>
+
+<img src="images/residual_2.png" width="800"/>
 
 [Return to top](#Table-of-Contents)
 
@@ -101,6 +129,7 @@ The final data has 95 columns (94 features + 1 target variable) which contains 1
 
 ### Conclusion
 We built 7 models for each flat type to predict the resale price, in overall with a **R2 score** of **0.928** and **RMSE** of **39,415.31**. Besides, we were able to identify the **top 5 features** that were **positively correlated** to the **resale price** for **each flat type**, as shown in the results below: 
+
 |   |1 Room|2 Room|3 Room|4 Room|5 Room|Exec|Multi|
 |---|---|---|---|---|---|---|---|
 |**1st**|tranc_month|4room_sold|max_floor_lvl|max_floor_lvl|hawker_within_2km|hawker_within_2km|hawker_within_2km|
