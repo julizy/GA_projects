@@ -21,7 +21,7 @@ Resale HDB flats are a convenient option for those who don't want to wait for BT
 ## Problem Statement
 As data scientists working for a real estate agent, our goal is to empower prospective householders and sellers to make informed decisions about property purchases and sales. Our main objectives are:
 
-**- Use Singapore public housing data from 2012 to 2021 to create a regression model that predicts the resale price of HDB flats in Singapore.**
+**- Using Singapore public housing data from 2012 to 2021, develop a regression model that accurately predicts the resale price of HDB flats in Singapore with a high degree of precision.**
 
 **- Identify the top 5 features that have the greatest positive correlation to the resale price so that buyers and sellers can take this information into consideration.**
 
