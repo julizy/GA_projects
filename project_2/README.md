@@ -104,14 +104,16 @@ We found that resale price of 7 different flat types show an ascending order of 
 
 The heatmaps below show the top 5 features positively correlated to resale price for **2 Room**, **4 Room** and **Multi-generation**. Compared to the overall heatmap with all flat types included, the top 5 features for each flat type are quite different. For example, the most positively correlated feature is **'max floor level'** for **3 Room** and **4 Room** and **'hawker numbers within 2km'** for **5 Room**, **Executive** and **Multi-generation**. It indicates that using seperate models to predict the resale prices of different flat types will be meaningful.
 
-<img src="images/heatmap_1.PNG" width="400"/>
-<img src="images/heatmap_2.PNG" width="400"/>
-<img src="images/heatmap_3.PNG" width="400"/>
+<p float="left">
+    <img src="images/heatmap_1.PNG" width="400"/>
+    <img src="images/heatmap_2.PNG" width="400"/>
+    <img src="images/heatmap_3.PNG" width="400"/>
+</p>
 
 ### Modeling
 The methodology we used is to split the models for different flat types. We believe the model should be different since the EDA results show that the key correlated features are different for each flat type. 
 
-<img src="images/modeling_methodology.png" width="800"/>
+<img src="images/modeling_methodology.png" width="600"/>
 
 Below shows the results of the final models we selected and the normalized RMSE on the validation set for each flat type. The normalized RMSE value is between **0.053** to **0.086**.
 |Model Name|Flat Type|Regression Model|Normalized RMSE on Validation Set|
@@ -126,9 +128,12 @@ Below shows the results of the final models we selected and the normalized RMSE 
 
 We did an overall model evaluation on the validation set. We predicted the resale price for each flat type separately, then merge these results into a full validation dataset with predict values and actual values, then we can calculate the combine RMSE from there (refer to the results in [Conclusion and Recommendation](#Conclusion-and-Recommendation)). We also did normality check and equal variance check of the residuals and observed some outliers, which are from 3 room, 4 room, 5 room and executive.  
 
-<img src="images/residual_1.png" width="400"/>
-<img src="images/residual_2.png" width="400"/>
-
+<img src="images/model_evaluation.png" width="800"/>
+<p float="left">
+    <img src="images/residual_1.png" width="470"/>
+    <img src="images/residual_2.png" width="500"/>
+</p>
+    
 [Return to top](#Table-of-Contents)
 
 ## Conclusion and Recommendation  
