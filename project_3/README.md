@@ -7,6 +7,7 @@
 - [Executive Summary](#Executive-Summary)
 - [Conclusion and Recommendation](#Conclusion-and-Recommendation)  
 - [Requirements](#Requirements)
+- [App Demo](#App-Demo)
 
 ## Background
 The importance of healthy sleep cannot be overstated. A lack of sleep or poor quality sleep can result in a variety of health issues, including obesity, diabetes, heart disease, and mental health problems such as anxiety and depression. It can also impair cognitive function, memory, and concentration, which can significantly impact daily activities such as work and driving. By prioritizing healthy sleep habits, individuals can improve their overall health and well-being.
@@ -103,5 +104,12 @@ lime 0.2.0.1
 pickle5 0.0.12
 
 Flask 2.2.3
+
+[Return to top](#Table-of-Contents)  
+
+## App Demo
+To run the app, you'll need to download the [app](https://github.com/julizy/GA_projects/tree/main/project_3/app) folder to your local computer and execute the following command in your terminal within the folder: `flask run`
+
+This will start the Flask development server and your app will be accessible at http://localhost:5000/.
 
 [Return to top](#Table-of-Contents)  
