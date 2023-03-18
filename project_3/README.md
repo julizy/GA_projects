@@ -110,6 +110,8 @@ Flask 2.2.3
 ## App Demo
 To run the app, you'll need to download the [app](https://github.com/julizy/GA_projects/tree/main/project_3/app) folder to your local computer and execute the following command in your terminal within the folder: `flask run`
 
-This will start the Flask development server and your app will be accessible at http://localhost:5000/.
+This will start the Flask development server and your app will be accessible at http://localhost:5000/form.
+
+<img src="images/app_demo.PNG" width="800"/>
 
 [Return to top](#Table-of-Contents)  
