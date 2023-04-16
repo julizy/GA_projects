@@ -8,14 +8,14 @@
 - [Audience and Stakeholders](#Audience-and-Stakeholders)
 
 ## Background
-Automated-optical-inspection (AOI) tools are deployed prior to shipment of ICs as a quality gate. These tools rely on rule-based algorithms that have low classification accuracy. A solution based on Deep Learning models has been developed to improve the optical inspection process. However, so far all the labelling of the images done manually, which is time consuming and costly. 
+Automated-optical-inspection (AOI) tools are deployed prior to shipment of ICs as a quality gate. These tools rely on rule-based algorithms that have low classification accuracy. A solution based on Deep Learning models has been developed to improve the optical inspection process. However, so far all the labelling of the images done manually, which is time consuming. 
 
 **Will explain more about the business concept, end goal and impact in the final version**
 
 [Return to top](#Table-of-Contents)  
 
 ## Problem Statement
-Using image clustering for auto annotation to reduce the time and cost for manual labelling of defect IC packages (e.g. VQ48). 
+Using image clustering for auto annotation to reduce the time for manual labelling of defect IC packages (e.g. VQ48). 
 
 [Return to top](#Table-of-Contents)  
 
